@@ -1,0 +1,36 @@
+{
+  "name": "member_ranking",
+  "version": "1.0.0",
+  "description": "ranking system for nafas server",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitNAFAS/member_ranking.git"
+  },
+  "keywords": [
+    "discordjs",
+    "ranking",
+    "voice-tracking"
+  ],
+  "author": "0x0000f",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitNAFAS/member_ranking/issues"
+  },
+  "homepage": "https://github.com/gitNAFAS/member_ranking#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "^3.3.3"
+  }
+}
